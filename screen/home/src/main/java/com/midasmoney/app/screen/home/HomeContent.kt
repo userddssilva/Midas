@@ -1,4 +1,4 @@
-package com.midasmoney.app.ui.gallery
+package com.midasmoney.app.screen.home
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,12 +11,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun GalleryDescription(galleryViewModel: GalleryViewModel) {
-    GalleryContent(text = galleryViewModel.text.value.toString())
+fun HomeDescription(homeViewModel: HomeViewModel) {
+    HomeContent(homeViewModel.text.value.toString())
 }
 
 @Composable
-fun GalleryContent(text: String) {
+fun HomeContent(text: String) {
     Surface(
         modifier = Modifier.fillMaxSize()
     ) {
@@ -34,6 +34,6 @@ fun GalleryContent(text: String) {
 
 @Preview(showBackground = true)
 @Composable
-fun GalleryDescriptionPreview() {
-    GalleryContent(text = "This is gallery Fragment")
+fun HomeDescriptionPreview(){
+    HomeContent("This is Home Fragment")
 }

@@ -1,4 +1,4 @@
-package com.midasmoney.app.ui.gallery
+package com.midasmoney.app.screen.gallery
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
