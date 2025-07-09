@@ -1,0 +1,8 @@
+plugins {
+    id 'midas.kotlin-android'
+    id 'midas.compose'
+}
+
+android {
+    namespace 'com.midasmoney.app.screen.gallery'
+}

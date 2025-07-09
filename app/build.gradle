@@ -32,13 +32,12 @@ android {
         jvmTarget = '11'
     }
     buildFeatures {
-        viewBinding true
+        viewBinding  true
         compose true
     }
 }
 
 dependencies {
-
     implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
     implementation libs.material
@@ -52,10 +51,8 @@ dependencies {
     androidTestImplementation libs.androidx.espresso.core
 
     // Compose
-    def composeBom = platform(libs.androidx.compose.bom)
-    implementation(composeBom)
-    androidTestImplementation(composeBom)
-
+    implementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(platform(libs.androidx.compose.bom))
     implementation libs.androidx.ui
     implementation libs.androidx.foundation
     implementation libs.androidx.foundation.layout
@@ -63,4 +60,9 @@ dependencies {
     implementation libs.androidx.runtime.livedata
     implementation libs.androidx.ui.tooling.preview
     debugImplementation libs.androidx.ui.tooling
+
+    // screen
+    implementation(project(':screen:gallery'))
+    implementation(project(':screen:home'))
+    implementation(project(':screen:slideshow'))
 }

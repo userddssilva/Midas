@@ -21,3 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Midas"
 include ':app'
+include ':screen:gallery'
+include ':screen:home'
+include ':screen:slideshow'

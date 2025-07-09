@@ -8,6 +8,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.midasmoney.app.screen.gallery.GalleryDescription
+import com.midasmoney.app.screen.gallery.GalleryViewModel
 
 class GalleryFragment : Fragment() {
     override fun onCreateView(
