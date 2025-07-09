@@ -7,16 +7,16 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.midasmoney.app.ui.home.HomeFragment"
+        android:name="com.midasmoney.app.screen.home.HomeFragment"
         android:label="@string/menu_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.midasmoney.app.ui.gallery.GalleryFragment"
+        android:name="com.midasmoney.app.screen.gallery.GalleryFragment"
         android:label="@string/menu_gallery"/>
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.midasmoney.app.ui.slideshow.SlideshowFragment"
+        android:name="com.midasmoney.app.screen.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"/>
 </navigation>

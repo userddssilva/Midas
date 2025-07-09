@@ -1,4 +1,4 @@
-package com.midasmoney.app.ui.home
+package com.midasmoney.app.screen.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.midasmoney.app.screen.home.HomeDescription
-import com.midasmoney.app.screen.home.HomeViewModel
 
 class HomeFragment : Fragment() {
     override fun onCreateView(

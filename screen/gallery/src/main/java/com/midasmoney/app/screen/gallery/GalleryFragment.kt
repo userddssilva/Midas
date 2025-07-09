@@ -1,4 +1,4 @@
-package com.midasmoney.app.ui.gallery
+package com.midasmoney.app.screen.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.midasmoney.app.screen.gallery.GalleryDescription
-import com.midasmoney.app.screen.gallery.GalleryViewModel
 
 class GalleryFragment : Fragment() {
     override fun onCreateView(
