@@ -1,0 +1,14 @@
+plugins {
+    id 'groovy-gradle-plugin'
+}
+
+repositories {
+    google()
+    mavenCentral()
+    gradlePluginPortal()
+}
+
+//TODO(dayvson): discovery why and how use this
+tasks.named('test', Test) {
+    useJUnitPlatform()
+}

@@ -1,4 +1,4 @@
-package com.example.gallery
+package com.midasmoney.app.screen.gallery
 
 import org.junit.Test
 
