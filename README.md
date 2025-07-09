@@ -42,8 +42,8 @@ Midas Money is a mobile app focused on personal financial management, with an in
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/[userddssilva]/midas-money.git
-   cd midas-money
+   git clone https://github.com/userddssilva/Midas.git
+   cd Midas 
    ```
 
 2. **Install dependencies**:
@@ -91,8 +91,8 @@ This project is licensed under the [MIT License](LICENSE). See the `LICENSE` fil
 
 ## 📧 Contact
 
-- **Developer**: [Dayvson Silva] <!-- Replace with your name -->
-- **Email**: [dayvsondossantossilva@gmail.com] <!-- Replace with your email -->
+- **Developer**: Dayvson Silva
+- **Email**: dayvsondossantossilva@gmail.com
 - **GitHub Issues**: Open an issue in this repository to report bugs or suggest improvements.
 
 ---
