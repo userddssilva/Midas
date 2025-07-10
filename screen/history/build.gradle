@@ -4,5 +4,5 @@ plugins {
 }
 
 android {
-    namespace 'com.midasmoney.screen.home'
+    namespace 'com.midasmoney.screen.history'
 }
