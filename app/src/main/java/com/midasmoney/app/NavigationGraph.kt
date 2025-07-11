@@ -11,11 +11,11 @@ import com.midasmoney.screen.home.HomeContentImp
 import com.midasmoney.screen.profile.ProfileContentImp
 
 sealed class Screen(val route: String) {
-    object Home : Screen("Home")
-    object Analytics : Screen("Analytics")
-    object History : Screen("History")
-    object Goals : Screen("Goals")
-    object Profile : Screen("Profile")
+    data object Home : Screen("Home")
+    data object Analytics : Screen("Analytics")
+    data object History : Screen("History")
+    data object Goals : Screen("Goals")
+    data object Profile : Screen("Profile")
 }
 
 @Composable
